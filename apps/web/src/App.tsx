@@ -1,12 +1,10 @@
-import { Card } from "@repo/ui/card";
+import { Button } from "@repo/ui/button";
 
 export function App() {
   return (
-    <div className="">
-      <Card href="#" title="asdfadf">
-        Teste
-      </Card>
-      <h1 className="text-red-600">hello vite asdf</h1>
+    <div className="bg-white h-screen flex items-center justify-center text-neutral-800 flex-col gap-2">
+      <h1>Vite</h1>
+      <Button size="lg">Teste</Button>
     </div>
   );
 }
